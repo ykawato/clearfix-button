@@ -1,0 +1,10 @@
+/**
+ * This CSS affects only the TinyMCE editor in Visual mode,
+ * not the front-end site styles.
+ */
+.mce-content-body .clearfix {
+    display: block;              /* make sure we can see the line clearly */
+    margin: 1em 0;              /* some spacing above/below */
+    border-bottom: 1px dashed #ccc; /* dim horizontal line */
+    text-align:center;
+}
